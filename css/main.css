@@ -14,58 +14,59 @@ body {
 
 .banner {
   background-color: #2b3851;
-  width: 100%;
-  display: inline-block;
-  text-align: center;
-  position: relative;
-  padding: 110px;
+  height: 240px;
 }
 
 .robot {
   width: 320px;
-  margin: 0;
-  display: inline-block;
+  margin: 0 auto;
   position: relative;
-  top: -108px;
+  height: 100%;
 }
 
 .robot-body {
   width: 320px;
   position: absolute;
-  top: 40px;
-  left: 50%;
-  transform: translateX(-50%);
+  bottom: 0;
 }
 
 .robot-brain {
   width: 46px;
   position: absolute;
-  top: 40px;
-  left: 50%;
-  transform: translateX(-50%);
+  top: 70px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.robot-head-right,
+.robot-head-left {
+  position: absolute;
+  top: 18px;
+  width: 125px;
 }
 
 .robot-head-right {
-  position: absolute;
   left: 50%;
 }
 
 .robot-head-left {
-  position: absolute;
   right: 50%;
-  width: 125px;
+
 }
 
 .robot:hover :nth-child(2) {
-  top: 21px;
+  top: 40px;
 }
 
 .robot:hover :nth-child(3) {
-  top: -15px;
-  left: 61%;
+  top: 5px;
+  right: 0;
+  left: auto;
 }
 
 .robot:hover :nth-child(4) {
-  top: -15px;
-  right: 61%;
+  top: 5px;
+  left: 0;
+  right: auto;
 }

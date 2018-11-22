@@ -1,6 +1,5 @@
 html {
   box-sizing: border-box;
-
   font: normal 100%/1.5 sans-serif;
 }
 
@@ -20,8 +19,6 @@ body {
   text-align: center;
   position: relative;
   padding: 110px;
-
-
 }
 
 .robot {
@@ -38,8 +35,6 @@ body {
   top: 40px;
   left: 50%;
   transform: translateX(-50%);
-
-
 }
 
 .robot-brain {
@@ -48,20 +43,29 @@ body {
   top: 40px;
   left: 50%;
   transform: translateX(-50%);
-
-
 }
 
 .robot-head-right {
   position: absolute;
   left: 50%;
 }
+
 .robot-head-left {
   position: absolute;
   right: 50%;
   width: 125px;
 }
 
-.robot:hover:nth-child(2){
-  top: 30px;
+.robot:hover :nth-child(2) {
+  top: 21px;
+}
+
+.robot:hover :nth-child(3) {
+  top: -15px;
+  left: 61%;
+}
+
+.robot:hover :nth-child(4) {
+  top: -15px;
+  right: 61%;
 }
